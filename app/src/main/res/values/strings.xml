@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">uc_mobile_app</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="language_changed">Language changed successfully!</string>
+    <string name="language_change_error">Error changing language!</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+</resources>

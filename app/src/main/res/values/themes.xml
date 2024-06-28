@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="ThemeWithActionBar" parent="Theme.Material3.Light">
+        <item name="colorPrimary">#FFC300</item>
+        <item name="colorAccent">#26355D</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="ThemeWithoutActionBar" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#FFC300</item>
+        <item name="colorAccent">#26355D</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.Material3.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/purple</item>
+    </style>
+</resources>
+
